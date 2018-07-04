@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  /*position: fixed;*/
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+.logo {
+  color: MediumAquamarine;
+  margin-left: 10px;
+}
+.navagation {
+    display: inline-block;
+    margin-left: 1000px;
+}
+span {
+  margin-right: 20px;
+}
