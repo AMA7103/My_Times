@@ -1,7 +1,12 @@
+body{
+  min-width: 1340px;
+  max-width: 1340px;
+  overflow: scroll;
+}
 .header {
   display: flex;
   align-items: center;
-  width: 100%;
+  justify-content: flex-start;
   /*position: fixed;*/
   font-family: Verdana;
   font-size: 14px;
@@ -13,8 +18,23 @@
 }
 .navagation {
     display: inline-block;
-    margin-left: 1000px;
+    margin-left: 900px;
 }
 span {
   margin-right: 20px;
+}
+div {
+  border: solid 1px
+}
+.container {
+  display: flex;
+}
+.cone {
+  display: flex;
+  width: 630px;
+  flex-direction: column;
+}
+tag {
+  font-size: 30px;
+  font-weight: bold;
 }
