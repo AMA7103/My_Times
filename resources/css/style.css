@@ -31,10 +31,23 @@ div {
 }
 .cone {
   display: flex;
-  width: 630px;
+  width: 680px;
   flex-direction: column;
 }
 tag {
   font-size: 30px;
   font-weight: bold;
+}
+.cotwo {
+  display: flex;
+  width: 350px;
+  flex-direction: column;
+}
+.cothree {
+  display: flex;
+  width: 310px;
+  flex-direction: column;
+}
+#nb {
+  font-size: 20px;
 }
